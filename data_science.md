@@ -47,6 +47,24 @@
 ### Notes
 
 
+## [Yu et al., 2022](https://arxiv.org/abs/2205.01917)
+### Where am I?
+- Figures at a glance
+### Takeaways
+- Training
+    1-1. Image feeded to image encoder
+    1-2. Text feeded to text decoder
+    2. Contrastive loss for CLS of 1-1/1-2 outputs for image-text matching
+    3. Multimodal text decoder - cross-attention between modalities to get capptioning
+- Downstream tasks
+    - Image encoder with classifier can be used for visual-only tasks
+    - Image-text matching can be done with image encoder / text decoder, thanks to matching learnt CLS
+    - Other multimodal tasks could be addressed with entire model
+### Questions & Comments
+- Why text decoder, not encoder?
+### Notes
+
+
 ## template
 ### Where am I?
 ### Takeaways
