@@ -30,7 +30,7 @@
 
 ## [Alayrac et al., 2022](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model)
 ### Where am I?
-- 2.1
+- 3.1.2
 ### Takeaways
 #### Related Works
 - Hoffmann et al. (2022)
@@ -43,6 +43,16 @@
     - Still differentiated in its capability in small data and its flexibility
 - In this work, multimodal task-agnostic web scraped data is used for pretraining
 - Few-shot learning including "in-context" learning (e.g. in sequence #1 learn basic math, in #2 learn typo and correct spelling, ...) is studied and recently applied to multimodal learning, and this work is first application for video learning
+#### Approach
+- vision encoder
+    - Normalizer-Free ResNet (NFNet) F6
+        - performance-efficacy tradeoff
+        - frozen in main training
+        - pretrained to match with text 
+- text encoder
+    - BERT
+- encoder -> sample tokens -> interleaved attention -> feedfoward
+- gated xattn-dense: "conditioning" for training-phase representation
 ### Questions & Comments
 ### Notes
 
