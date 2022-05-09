@@ -28,6 +28,25 @@
 ### Notes
 - [refernce 21 for pattern submodel](https://academic.oup.com/biostatistics/article/21/2/236/5092384)
 
+## [Alayrac et al., 2022](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model)
+### Where am I?
+- 2.1
+### Takeaways
+#### Related Works
+- Hoffmann et al. (2022)
+    - shows # of tokens scale with model size, which explains large-model-better trend
+    - Flamingo (80B) is built upon Chinchilla (70B)
+- Multiple lines of works have been done on Multimodal BERT-like models but Flamingo is different in that fine-tuning is not needed
+- Contrastive dual encoder is strong in small samples but applicable type of tasks is limited, and Flamingo can learn from even smaller samples (significant improvement with 4 samples)
+- Autoregressive generative multimodal model is most similar to this work
+    - Usage of frozen language model, mapping between vision encoder, cross-attention layers across language model layers
+    - Still differentiated in its capability in small data and its flexibility
+- In this work, multimodal task-agnostic web scraped data is used for pretraining
+- Few-shot learning including "in-context" learning (e.g. in sequence #1 learn basic math, in #2 learn typo and correct spelling, ...) is studied and recently applied to multimodal learning, and this work is first application for video learning
+### Questions & Comments
+### Notes
+
+
 ## template
 ### Where am I?
 ### Takeaways
