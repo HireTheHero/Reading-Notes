@@ -74,6 +74,16 @@
 - Why text decoder, not encoder?
 ### Notes
 
+## [Jaegle et al., 2021](https://arxiv.org/abs/2103.03206)
+### Where am I?
+- 1. Introduction
+### Takeaways
+- Byte-level input array is passed to K/V of attention to be queried by latent array, which provides input-format independent representation
+### Questions & Comments
+- 
+### Notes
+
+
 
 ## template
 ### Where am I?
