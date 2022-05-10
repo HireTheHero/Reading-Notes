@@ -1,7 +1,8 @@
 # Sciences about Brain
 ## [A Thousand Brains by Jeff Hawkins](https://numenta.com/a-thousand-brains-by-jeff-hawkins)
 ### Where am I?
-- End of part I
+- End of section 9
+    - Finish here, since I think I got what I need
 ### Takeaways
 - Theory with a few experimental groundings supports the idea of grid cell / place cell(-like) system is a unit of intelligence in neocortex column
     - grid cell is unit of "where", while place cell provides "what"
@@ -12,6 +13,7 @@
         - Optical illusion like Rubin's vase
 - Traditional hierachical feature extraction theory doesn't explain much of "vision in normal world"
     - the author instead proposes "hierachical object theory", in which all the neocortex region contains object level information, while deeper layer like V5 contains more sophisticated object
+- "Artificial General Intelligence should follow brain's steps"
 ### Questions & Comments
 - Looks like reasonable for "the reason behind reasoning"
     - Like described fMRI experiment in which the subjects imagine new type of bird, when (explicitly or implicitly) he/she should extract the features of existing birds to combine with something as a plus (to make it new type)
