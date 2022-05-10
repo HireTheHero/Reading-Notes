@@ -76,9 +76,19 @@
 
 ## [Jaegle et al., 2021](https://arxiv.org/abs/2103.03206)
 ### Where am I?
-- 1. Introduction
+- 1. Introduction / 3. Methods
 ### Takeaways
+#### 1. Introduction
 - Byte-level input array is passed to K/V of attention to be queried by latent array, which provides input-format independent representation
+#### 3. Methods
+- Clustering with latent factor as centre
+    - No masks, no causal relationship
+- How can quadratic complexity in transformer directly fed with visiual/audio inputs addressed?
+    - Number of latent factor dimensions is much smaller
+- Latent factor used as Transformer input
+- Overlayed cross-attention/Transformer blocks with optional weight sharing deal with latent factor dimension bottleneck
+- Position embedding hired for spatial information
+    - Fourier features
 ### Questions & Comments
 - 
 ### Notes
